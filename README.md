@@ -6,28 +6,65 @@ The hardware design, firmware and software are derived from digispark, micronucl
 
 ## Hardware
 
-To be updated
+This design is adapted from the venerable DigiSpark Pro.
+
+Here's the lowdown on the stats
+ATTINY167
+- 16KB Flash Memory
+- 512B EEPROM
+- 14 I/O Pins (I2C, SPI)
+Acessories
+- 5 WS2812B LEDs
+- 2 CR2032 Battery Holders
+- 2 LEDs (Status, Pwr)
+- Prototyping board
+- USB Connector
 
 ## Firmware
 
-To be updated
+A jig will be provided on the day itself for firmware (bootloader) reprogramming using SPI. 
 
 ## Software
 
-To be updated
+Feel free to program your arduino anyway you want during the competition using arduino IDE and the "on board" USB port!
+
+## Designed by
+
+```
+NUSHackers and Pals
+
+Chang Chu-Ming
+Chinmay Pendharkar
+Harish Venkatesan
+Kenneth Lim
+Vishnu Prem
+Rahul Gokul
+Sayanee Basu
+Shanmugam Mpl
+Yeo Kheng Meng
+Jeremias Wong
+```
+
+## Secret Features
+
+One has to be granted WOC REPUS Previleges before one accesses the secret features/puzzle.
+
+There will be prizes for people who crack the puzzle during the hackathon!
+
+## Sponsors
  
-## Platinum Sponsor
+### Platinum Sponsor
 ```
 Zalora
 ```
 
-## Gold Sponsors
+### Gold Sponsors
 ```
 Garena
 Palantir
 ```
 
-## Silver Sponsors
+### Silver Sponsors
 ```
 Titansoft
 Google
@@ -35,25 +72,13 @@ Jane Street
 Stripe
 ```
 
-## Bronze Sponsors
+### Bronze Sponsors
 ```
 Zopim
 Carousell
 NUS School of Computing
 ```
 
-## Designed by
-```
-NUSHackers and Pals
+We thank the sponsors for making this happen.
 
-Chang Chu-Ming
-Chinmay Pendharkar
-Harish Venkatesan
-Jeremias Wong
-Kenneth Lim
-Vishnu Prem
-Rahul Gokul
-Sayanee Basu
-Shanmugam Mpl
-Yeo Kheng Meng
-```
+Also we're looking out for sponsors for the next hackathon!
