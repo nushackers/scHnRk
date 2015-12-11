@@ -42,8 +42,18 @@ Carousell
 NUS School of Computing
 ```
 
-##Designed by
+## Designed by
 ```
-NUSHackers
+NUSHackers and Pals
 
+Chang Chu-Ming
+Chinmay Pendharkar
+Harish Venkatesan
+Jeremias Wong
+Kenneth Lim
+Vishnu Prem
+Rahul Gokul
+Sayanee Basu
+Shanmugam Mpl
+Yeo Kheng Meng
 ```
