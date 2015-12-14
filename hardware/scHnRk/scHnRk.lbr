@@ -248,7 +248,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="16MHZ-2467444">
+<deviceset name="16MHZ-2467444" prefix="XTAL">
 <gates>
 <gate name="G$1" symbol="16MHZ-2467444" x="0" y="0"/>
 </gates>

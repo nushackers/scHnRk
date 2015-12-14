@@ -9,16 +9,16 @@ The hardware design, firmware and software are derived from digispark, micronucl
 This design is adapted from the venerable DigiSpark Pro.
 
 Here's the lowdown on the stats
-ATTINY167
-- 16KB Flash Memory
-- 512B EEPROM
-- 14 I/O Pins (I2C, SPI)
-Acessories
-- 5 WS2812B LEDs
-- 2 CR2032 Battery Holders
-- 2 LEDs (Status, Pwr)
-- Prototyping board
-- USB Connector
+- ATTINY167
+  - 16KB Flash Memory
+  - 512B EEPROM
+  - 14 I/O Pins (I2C, SPI)
+- Acessories
+  - 5 WS2812B LEDs
+  - 2 CR2032 Battery Holders
+  - 2 LEDs (Status, Pwr)
+  - Prototyping board
+  - USB Connector
 
 ## Firmware
 

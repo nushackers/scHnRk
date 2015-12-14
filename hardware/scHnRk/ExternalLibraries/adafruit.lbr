@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -20480,9 +20480,9 @@ FCI SFV4R-1STE1LF</description>
 </package>
 <package name="CR2032-SMD">
 <wire x1="-15.494" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-4.572" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-4.572" x2="-4.826" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-4.826" y1="-10.16" x2="5.08" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-4.826" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-4.826" x2="-5.08" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-10.16" x2="10.16" y2="-4.826" width="0.127" layer="21"/>
 <wire x1="10.16" y1="-4.826" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="10.16" y1="-2.54" x2="15.494" y2="-2.54" width="0.127" layer="21"/>
@@ -20491,25 +20491,19 @@ FCI SFV4R-1STE1LF</description>
 <wire x1="10.16" y1="2.54" x2="10.16" y2="9.652" width="0.127" layer="21"/>
 <wire x1="10.16" y1="9.652" x2="5.842" y2="9.652" width="0.127" layer="21"/>
 <wire x1="5.842" y1="9.652" x2="3.302" y2="6.604" width="0.127" layer="21"/>
-<wire x1="3.302" y1="6.604" x2="-3.048" y2="6.604" width="0.127" layer="21"/>
-<wire x1="-3.048" y1="6.604" x2="-5.334" y2="9.652" width="0.127" layer="21"/>
-<wire x1="-5.334" y1="9.652" x2="-10.16" y2="9.652" width="0.127" layer="21"/>
+<wire x1="3.302" y1="6.604" x2="-3.302" y2="6.604" width="0.127" layer="21"/>
+<wire x1="-3.302" y1="6.604" x2="-5.842" y2="9.652" width="0.127" layer="21"/>
+<wire x1="-5.842" y1="9.652" x2="-10.16" y2="9.652" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="9.652" x2="-10.16" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="2.54" x2="-15.494" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-15.494" y1="2.54" x2="-15.494" y2="-2.54" width="0.127" layer="21"/>
 <circle x="-12.954" y="0" radius="0.9158" width="0.127" layer="21"/>
 <circle x="12.954" y="0" radius="0.9158" width="0.127" layer="21"/>
-<smd name="-" x="0" y="0" dx="4.064" dy="4.064" layer="1"/>
+<smd name="-" x="0" y="0" dx="18" dy="18" layer="1" roundness="100"/>
 <smd name="+$1" x="-12.954" y="0" dx="5.08" dy="5.08" layer="1"/>
 <smd name="+$2" x="12.954" y="0" dx="5.08" dy="5.08" layer="1"/>
 <text x="-3.556" y="10.302" size="1.6764" layer="25" font="vector">&gt;NAME</text>
 <text x="-4.318" y="-12.35" size="1.6764" layer="27" font="vector">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-9" y="0" curve="-90"/>
-<vertex x="0" y="9" curve="-90"/>
-<vertex x="9" y="0" curve="-90"/>
-<vertex x="0" y="-9" curve="-90"/>
-</polygon>
 </package>
 <package name="SEGMENT_BICOL_BL-M12A883XX">
 <description>&lt;b&gt;Source: &lt;/b&gt;http://www.betlux.com/product/led_dot_matrix/BL-M12A883xx.PDF</description>
@@ -52334,7 +52328,7 @@ Joystick commonly found in PS2 controllers. Two pots and a select switch. Adapte
 </device>
 </devices>
 </deviceset>
-<deviceset name="CR2032" uservalue="yes">
+<deviceset name="CR2032" prefix="BATT" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="3V" x="0" y="0"/>
 </gates>
