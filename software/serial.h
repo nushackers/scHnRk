@@ -1,0 +1,4 @@
+/*
+Handles serial communication
+*/
+
