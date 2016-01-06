@@ -4,6 +4,7 @@ We highlight here the changes made between revisions
 
 ## v0.6
 
+Converted to ATTINY85
 
 ## v0.5
 
@@ -18,3 +19,5 @@ We highlight here the changes made between revisions
 
 
 ## v0.1
+
+Base setup

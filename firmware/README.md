@@ -2,7 +2,19 @@
 
 ## Hardware Setup
 
-Here's our hardware setup to load 
+Here's our hardware setup to load the firmware into the ScHnRk.
+
+- Windows Computer
+  - AVRISP (USB)
+    - AVRISP (SPI)
+      - Self made jig
+        - ScHnRk SPI interface 
+
+We used microneucleus bootloader for schnrk v0.1 - v0.7
+
+### Archived Setup
+
+Raspberry Pi bit banging seems to fail, so we are using AVRISP instead.
 
 ```
 Raspberry Pi
@@ -15,15 +27,3 @@ Raspberry Pi
   - Self made jig
     - ScHnRk SPI interface 
 ```
-
-## Software Setup
-
-Raspberry Pi runs Raspbian, with these packages installed
-
-## Firmware
-
-We used microneucleus bootloader for schnrk v0.1 - v0.5
-
-## Downloading Firmware
-
-*To be updated*

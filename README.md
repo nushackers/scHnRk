@@ -2,22 +2,22 @@
 
 The scHnRk (pronounced as snark) is a digispark/arduino compatible prototyping board developed for Hack&Roll'16.
 
-The hardware design, firmware and software are derived from digispark, micronucleus and arduino. This derivative is released under the Creative Commons License CC BY 4.0
+The hardware design, firmware and software are derived from Galvant/usb_wrapper-pcb, digispark, micronucleus and arduino. Any derivative from their work is released under the Creative Commons License CC BY 4.0 wherever possible. (I'm no lawyer)
 
 ## Hardware
 
 This design is adapted from the venerable DigiSpark Pro.
 
 Here's the lowdown on the stats
-- ATTINY167
-  - 16KB Flash Memory
+- ATTINY85
+  - 8KB Flash Memory
   - 512B EEPROM
-  - 14 I/O Pins (I2C, SPI)
+  - 6 I/O Pins (SPI)
 - Acessories
   - 5 WS2812B LEDs
   - 2 CR2032 Battery Holders
   - 2 LEDs (Status, Pwr)
-  - Prototyping board
+  - USB Wrapper (In some circles its called USB Condom)
   - USB Connector
 
 ## Firmware
@@ -49,7 +49,7 @@ Jeremias Wong
 
 One has to be granted WOC REPUS Previleges before one accesses the secret features/puzzle.
 
-There will be prizes for people who crack the puzzle during the hackathon!
+There might be prizes for people who crack the puzzle during the hackathon! Maybe we forgot lol?
 
 ## Sponsors
  
@@ -81,4 +81,4 @@ NUS School of Computing
 
 We thank the sponsors for making this happen.
 
-Also we're looking out for sponsors for the next hackathon!
+Also we're looking out for sponsors for the next hackathon! Please contact us at coreteam@nushackers.org!
