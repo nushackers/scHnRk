@@ -6,7 +6,7 @@ The hardware design, firmware and software are derived from Galvant/usb_wrapper-
 
 ## Hardware
 
-This design is adapted from the venerable DigiSpark Pro.
+This design is adapted from the venerable DigiSpark.
 
 Here's the lowdown on the stats
 - ATTINY85
@@ -20,16 +20,18 @@ Here's the lowdown on the stats
   - USB Wrapper (In some circles its called USB Condom)
   - USB Connector
 
+The scHnRk consists of 2 independent components, separable from one another. The main componenet is a digispark clone which is fully assembled, the smaller component is a partially assembled/ unassembled usb-wrapper-pcb kit. 
+
 ## Kits
 
-### Green
+### Green (unassembled usb-wrapper-pcb)
 
 - Resistor Information for green kits can be inferred from the following  
   - Galvant/usb_wrapper-pcb (Github)
     - Most basic configuration => R7 == 75K Ohm, R9 == 43.2K Ohm, R8 == R10 == 49.9K Ohm
     - R4 == 180 Ohm, LED == LED
 
-### Orange
+### Orange (partially assembled usb-wrapper-pcb)
 
 - Just solder on USB connector and you're set!
 
