@@ -20,6 +20,19 @@ Here's the lowdown on the stats
   - USB Wrapper (In some circles its called USB Condom)
   - USB Connector
 
+## Kits
+
+### Green
+
+- Resistor Information for green kits can be inferred from the following  
+  - Galvant/usb_wrapper-pcb (Github)
+    - Most basic configuration => R7 == 75K Ohm, R9 == 43.2K Ohm, R8 == R10 == 49.9K Ohm
+    - R4 == 180 Ohm, LED == LED
+
+### Orange
+
+- Just solder on USB connector and you're set!
+
 ## Firmware
 
 A jig will be provided on the day itself for firmware (bootloader) reprogramming using SPI. 
